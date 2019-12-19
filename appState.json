@@ -14,7 +14,8 @@
           "137bd82a-0331-420f-a31e-91034d446008",
           "776a83a7-a839-4821-8b66-81f00cf71cac",
           "07f829cf-c8b9-4cc2-adf5-71b19a5aef69",
-          "e8218008-3454-4157-aa90-8d70809530af"
+          "e8218008-3454-4157-aa90-8d70809530af",
+          "f3c2b10b-5841-4b97-9b0d-98c3fa15147f"
         ],
         "isRemovable": false,
         "filePath": "filesfiles"
@@ -114,6 +115,28 @@
         "children": [],
         "isRemovable": true,
         "filePath": "filesfiles/Json.json"
+      },
+      "f3c2b10b-5841-4b97-9b0d-98c3fa15147f": {
+        "id": "f3c2b10b-5841-4b97-9b0d-98c3fa15147f",
+        "parent": "b9cc5f82-b3cf-420e-bbb7-eacc9bd62192",
+        "name": "sub",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "deea9350-f495-417d-9ed0-81f22ffcf234"
+        ],
+        "isRemovable": true,
+        "filePath": "filesfiles/sub"
+      },
+      "deea9350-f495-417d-9ed0-81f22ffcf234": {
+        "id": "deea9350-f495-417d-9ed0-81f22ffcf234",
+        "parent": "f3c2b10b-5841-4b97-9b0d-98c3fa15147f",
+        "name": "jsoninsub.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "filesfiles/sub/jsoninsub.json"
       }
     },
     "rootNode": "b9cc5f82-b3cf-420e-bbb7-eacc9bd62192",
@@ -123,9 +146,10 @@
       "137bd82a-0331-420f-a31e-91034d446008",
       "776a83a7-a839-4821-8b66-81f00cf71cac",
       "07f829cf-c8b9-4cc2-adf5-71b19a5aef69",
-      "e8218008-3454-4157-aa90-8d70809530af"
+      "e8218008-3454-4157-aa90-8d70809530af",
+      "deea9350-f495-417d-9ed0-81f22ffcf234"
     ],
-    "currentFileId": "e8218008-3454-4157-aa90-8d70809530af",
+    "currentFileId": "deea9350-f495-417d-9ed0-81f22ffcf234",
     "resources": {
       "apigusEast1sachithraAPInameput": {
         "name": "apigusEast1sachithraAPInameput",
@@ -214,7 +238,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1576743369561
+    "lastSave": 1576743550566
   },
   "VCS_STATE": {
     "provider": "GitHub",
