@@ -1,0 +1,178 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "b9cc5f82-b3cf-420e-bbb7-eacc9bd62192": {
+        "id": "b9cc5f82-b3cf-420e-bbb7-eacc9bd62192",
+        "parent": null,
+        "name": "filesfiles",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "47055841-02a8-4df2-92c6-856dea303b44",
+          "b2bae759-29bb-4726-abff-1812e4b3b8d6",
+          "92ef31ed-2dc1-439b-a70b-ec37a6966e7e"
+        ],
+        "isRemovable": false,
+        "filePath": "filesfiles"
+      },
+      "47055841-02a8-4df2-92c6-856dea303b44": {
+        "id": "47055841-02a8-4df2-92c6-856dea303b44",
+        "parent": "b9cc5f82-b3cf-420e-bbb7-eacc9bd62192",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "filesfiles/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1sachithraAPInameput",
+            "config": {}
+          }
+        ]
+      },
+      "b2bae759-29bb-4726-abff-1812e4b3b8d6": {
+        "id": "b2bae759-29bb-4726-abff-1812e4b3b8d6",
+        "parent": "b9cc5f82-b3cf-420e-bbb7-eacc9bd62192",
+        "name": "python.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "filesfiles/python.py",
+        "config": {
+          "runtime": "python2.7",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1indunilzooindunilTestput",
+            "config": {}
+          }
+        ]
+      },
+      "92ef31ed-2dc1-439b-a70b-ec37a6966e7e": {
+        "id": "92ef31ed-2dc1-439b-a70b-ec37a6966e7e",
+        "parent": "b9cc5f82-b3cf-420e-bbb7-eacc9bd62192",
+        "name": "__init__.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "filesfiles/__init__.py"
+      }
+    },
+    "rootNode": "b9cc5f82-b3cf-420e-bbb7-eacc9bd62192",
+    "openFiles": [
+      "47055841-02a8-4df2-92c6-856dea303b44",
+      "b2bae759-29bb-4726-abff-1812e4b3b8d6"
+    ],
+    "currentFileId": "b2bae759-29bb-4726-abff-1812e4b3b8d6",
+    "resources": {
+      "apigusEast1sachithraAPInameput": {
+        "name": "apigusEast1sachithraAPInameput",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/",
+          "resourceName": "",
+          "resourceId": "zrjp6rdv3b",
+          "restMethod": "PUT",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "Test",
+          "stageDeploymentId": "j8p3wr",
+          "mode": 1
+        }
+      },
+      "apigusEast1indunilzooindunilTestput": {
+        "name": "apigusEast1indunilzooindunilTestput",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "indunilzoo",
+          "apiId": "6o600ye7x1",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "vcaf47f804",
+          "existingResources": {
+            "/indunilTest": "qbvxw0",
+            "/": "vcaf47f804"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/indunilTest",
+          "resourceName": "indunilTest",
+          "resourceId": "qbvxw0",
+          "restMethod": "PUT",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "Test",
+          "stageDeploymentId": "tg5exx",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      },
+      {
+        "lambdaId": "b2bae759-29bb-4726-abff-1812e4b3b8d6",
+        "varKey": "PYTHONPATH",
+        "varValue": "/var/runtime:/var/task/filesfiles",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "filesfiles",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1576742812663
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "filesfiles",
+      "url": "https://github.com/Indunil1992/filesfiles"
+    }
+  }
+}
