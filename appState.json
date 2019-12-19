@@ -13,7 +13,8 @@
           "92ef31ed-2dc1-439b-a70b-ec37a6966e7e",
           "137bd82a-0331-420f-a31e-91034d446008",
           "776a83a7-a839-4821-8b66-81f00cf71cac",
-          "07f829cf-c8b9-4cc2-adf5-71b19a5aef69"
+          "07f829cf-c8b9-4cc2-adf5-71b19a5aef69",
+          "e8218008-3454-4157-aa90-8d70809530af"
         ],
         "isRemovable": false,
         "filePath": "filesfiles"
@@ -103,6 +104,16 @@
         "children": [],
         "isRemovable": true,
         "filePath": "filesfiles/xml.xml"
+      },
+      "e8218008-3454-4157-aa90-8d70809530af": {
+        "id": "e8218008-3454-4157-aa90-8d70809530af",
+        "parent": "b9cc5f82-b3cf-420e-bbb7-eacc9bd62192",
+        "name": "Json.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "filesfiles/Json.json"
       }
     },
     "rootNode": "b9cc5f82-b3cf-420e-bbb7-eacc9bd62192",
@@ -111,9 +122,10 @@
       "b2bae759-29bb-4726-abff-1812e4b3b8d6",
       "137bd82a-0331-420f-a31e-91034d446008",
       "776a83a7-a839-4821-8b66-81f00cf71cac",
-      "07f829cf-c8b9-4cc2-adf5-71b19a5aef69"
+      "07f829cf-c8b9-4cc2-adf5-71b19a5aef69",
+      "e8218008-3454-4157-aa90-8d70809530af"
     ],
-    "currentFileId": "07f829cf-c8b9-4cc2-adf5-71b19a5aef69",
+    "currentFileId": "e8218008-3454-4157-aa90-8d70809530af",
     "resources": {
       "apigusEast1sachithraAPInameput": {
         "name": "apigusEast1sachithraAPInameput",
@@ -202,7 +214,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1576743271885
+    "lastSave": 1576743369561
   },
   "VCS_STATE": {
     "provider": "GitHub",
