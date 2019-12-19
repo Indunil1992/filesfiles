@@ -11,7 +11,8 @@
           "47055841-02a8-4df2-92c6-856dea303b44",
           "b2bae759-29bb-4726-abff-1812e4b3b8d6",
           "92ef31ed-2dc1-439b-a70b-ec37a6966e7e",
-          "137bd82a-0331-420f-a31e-91034d446008"
+          "137bd82a-0331-420f-a31e-91034d446008",
+          "776a83a7-a839-4821-8b66-81f00cf71cac"
         ],
         "isRemovable": false,
         "filePath": "filesfiles"
@@ -81,15 +82,26 @@
         "children": [],
         "isRemovable": true,
         "filePath": "filesfiles/text.txt"
+      },
+      "776a83a7-a839-4821-8b66-81f00cf71cac": {
+        "id": "776a83a7-a839-4821-8b66-81f00cf71cac",
+        "parent": "b9cc5f82-b3cf-420e-bbb7-eacc9bd62192",
+        "name": "r.r",
+        "type": "R_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "filesfiles/r.r"
       }
     },
     "rootNode": "b9cc5f82-b3cf-420e-bbb7-eacc9bd62192",
     "openFiles": [
       "47055841-02a8-4df2-92c6-856dea303b44",
       "b2bae759-29bb-4726-abff-1812e4b3b8d6",
-      "137bd82a-0331-420f-a31e-91034d446008"
+      "137bd82a-0331-420f-a31e-91034d446008",
+      "776a83a7-a839-4821-8b66-81f00cf71cac"
     ],
-    "currentFileId": "137bd82a-0331-420f-a31e-91034d446008",
+    "currentFileId": "776a83a7-a839-4821-8b66-81f00cf71cac",
     "resources": {
       "apigusEast1sachithraAPInameput": {
         "name": "apigusEast1sachithraAPInameput",
@@ -178,7 +190,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1576742961267
+    "lastSave": 1576743130352
   },
   "VCS_STATE": {
     "provider": "GitHub",
